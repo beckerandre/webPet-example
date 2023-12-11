@@ -1,11 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
+    <meta name="description" content="A pet website">
+    <title>Web Pet Example</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300&family=Inter:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles/main.css" class="rel">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="/node_modules/jquery/dist/jquery.slim.min.js" async></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js" async></script>
 </head>
 <body>
-    teste
+    <header>
+        <div class="header_complete">
+            <div class="content-width">
+                <div class="header_logo_search">
+                    <a href="#"><img src="/assets/images/icon_pet_round.svg" alt="pawn_logo" srcset=""></a>
+                    <div class="header_search">
+                        <input type="text" id="input_search" placeholder="Pesquisar...">
+                    </div>
+                    <div class="menu_buy_login_mobile">
+                        <a href="#"><img src="/assets/images/icon_shopping cart.svg" alt="Shopping Cart" srcset=""></a>
+                        <a href="#"><img src="/assets/images/icon_User Circle.svg" alt="Login" srcset=""></a>
+                    </div>
+                </div>
+                <nav>
+                    <div class="nav_logos">
+                        <div class="menu">
+                            <li>
+                                <a href="#"><ul>Quem somos</ul></a>
+                                <a href="#"><ul>Shopping</ul></a>
+                                <a href="#"><ul>Blog</ul></a>
+                                <a href="#"><ul>Serviços</ul></a>
+                            </li>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="content-width">
+            <div class="content">
+                <div class="title_content">
+                    <div class="title">Neque porri quisq <strong>qui dolorem</strong></div>
+                    <div class="subTitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue leo congue vehicula finibus.</div>
+                </div>
+                <div class="btnContent">
+                    <div class="buy">
+                        <a href="#"><button class="btnBuy">Online shopping</button></a>
+                    </div>
+                    <div class="contactus">
+                        <a href="#"><button class="btnContactUs">Contact with us...</button></a>
+                    </div>
+                </div>
+                
+                <div class="carousel_ext">
+                    <div id="carousel-container" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="#"><img src="/assets/images/dog.svg" class="d-block" alt="Dog" srcset=""></a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#"><img src="/assets/images/cat.svg" class="d-block" alt="Cat" srcset=""></a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#"><img src="/assets/images/rat.svg" class="d-block" alt="Rat" srcset=""></a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#"><img src="/assets/images/fish.svg" class="d-block" alt="Fish" srcset=""></a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#"><img src="/assets/images/reptile.svg" class="d-block" alt="Reptile" srcset=""></a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#"><img src="/assets/images/bird.svg" class="d-block" alt="Bird" srcset=""></a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="#"><img src="/assets/images/flower.svg" class="d-block" alt="Flower" srcset=""></a>
+                            </div>
+                        </div>
+                        
+                        <a class="carousel-control-prev" href="#carousel-ext" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-ext" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="container-pets-flex">
+                    <div class="pets-img">
+                        <a href="#"><img src="/assets/images/dog.svg" class="d-block" alt="Dog" srcset=""></a>
+                    </div>
+                    <div class="pets-img">
+                        <a href="#"><img src="/assets/images/cat.svg" class="d-block" alt="Cat" srcset=""></a>
+                    </div>
+                    <div class="pets-img">
+                        <a href="#"><img src="/assets/images/rat.svg" class="d-block" alt="Rat" srcset=""></a>
+                    </div>
+                    <div class="pets-img">
+                        <a href="#"><img src="/assets/images/fish.svg" class="d-block" alt="Fish" srcset=""></a>
+                    </div>
+                    <div class="pets-img">
+                        <a href="#"><img src="/assets/images/reptile.svg" class="d-block" alt="Reptile" srcset=""></a>
+                    </div>
+                    <div class="pets-img">
+                        <a href="#"><img src="/assets/images/bird.svg" class="d-block" alt="Bird" srcset=""></a>
+                    </div>
+                    <div class="pets-img">
+                        <a href="#"><img src="/assets/images/flower.svg" class="d-block" alt="Flower" srcset=""></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer_complete">
+            <div class="content-width">
+                <div class="footer_address">Pet Center Comércio Participações S/A - Endereço: Rua Xis, 100 - Blumenau, Santa Catarina <br> 2023 Pet Center Comércio e Participações S/A - Todos os direitos reservados</div>
+            </div>
+        </div>
+    </footer>
+    
 </body>
 </html>
